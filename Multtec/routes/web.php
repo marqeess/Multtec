@@ -26,3 +26,9 @@ Route::middleware(['auth'])->group(function () {
     });
 
 });
+
+// Rota de acesso a administração
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

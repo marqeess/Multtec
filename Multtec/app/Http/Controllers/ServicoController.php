@@ -7,77 +7,32 @@ use Illuminate\Http\Request;
 
 class ServicoController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    
+    // Exibir a lista de serviços recentes --------------------------------------
     public function index()
     {
         //
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    // Exibir a view de cadastro de serviços ------------------------------------
     public function create()
     {
         //
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+    // Salvar dados do serviço no BD --------------------------------------------
     public function store(Request $request)
     {
         //
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  \App\Servico  $servico
-     * @return \Illuminate\Http\Response
-     */
-    public function show(Servico $servico)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  \App\Servico  $servico
-     * @return \Illuminate\Http\Response
-     */
-    public function edit(Servico $servico)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Servico  $servico
-     * @return \Illuminate\Http\Response
-     */
+    // Salvar dados editados do serviço alterado --------------------------------
     public function update(Request $request, Servico $servico)
     {
         //
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  \App\Servico  $servico
-     * @return \Illuminate\Http\Response
-     */
+    // Apagar o serviço do BD ---------------------------------------------------
     public function destroy(Servico $servico)
     {
         //
